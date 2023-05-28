@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Page from '../component/Page/page.js';
+import Page from '../screens/Page/page.js';
 
 class Router extends Component{
 

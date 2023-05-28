@@ -1,14 +1,9 @@
 import {Component} from "react";
 import '../../assets/scss/allPages.scss'
-import Mypic from './../../assets/images/lilis.png'
 import Address from './../../assets/images/address.png'
-import Fb from './../../assets/images/facebook.png'
-import Mail from './../../assets/images/mail.png'
-import Wa from './../../assets/images/whatsapp.png'
 import Phone from './../../assets/images/phone.png'
-import Ig from './../../assets/images/instagram.png'
-import Li from './../../assets/images/linkedin.png'
-import Burger from '../../screens/burger.js'
+import Mail from './../../assets/images/mail.png'
+import Burger from '../../components/burger.js'
 import Surat from './../../assets/images/surat.png'
 import Godot from './../../assets/images/godot.png'
 import Desty from '../../assets/images/desty.png'
@@ -16,6 +11,7 @@ import SD from './../../assets/images/sd.png'
 import SMP from './../../assets/images/smp.png'
 import SMA from '../../assets/images/sma.png'
 import Uni from '../../assets/images/uni.png'
+import Aboutme from './aboutme.js'
 
 class Page extends Component{
   render(){
@@ -36,21 +32,17 @@ class Page extends Component{
               <h1 className="title_name"> Lilis Indriani</h1>
               <h2 className="title_status"> Fresh Graduated
               </h2>
-              <h3 className="title_explain">
-                I am bachelor degree of Informatics enginering, i have 
-                specialization in Web Development(frontend). i have good 
-                ability to work on team and time management. 
-                i am looking for a company basic on IT technology. 
-              </h3>
+              
             </div>
-            <div className="back_mypic">
+            {/* <div className="back_mypic">
               <img src={Mypic} className="lilis"/>
-            </div>
+            </div> */}
           </div>
           
             
           
         </div>
+        <Aboutme/>
         <div className="education" id="education">
           <h2 className="write_education"> EDUCATION</h2>
           <div className="school">
@@ -186,43 +178,40 @@ class Page extends Component{
         </div>
         <div className="footer" >
           <div className="cover_footer">
-            <div className="explain_footer">
-              <a href="#moreinfo2" className="ex_write" id="moreinfo"> Home</a>
-            </div>
+          
             <div className="address">
               <h3 className="write_add"> Address:</h3>
-              <img src={Address} className="add_img"/>
-              <h3 className="add_write">
-                RT1 RW1, Dukuh Brunyah, Desa Taggeran, Kecamatan Paninggaran,
-                Kabupaten Pekalongan, Jawa Tengah, Indonesia
-              </h3>
-              <img src={Phone} className="add_img"/>
-              <h3 className="add_write">
-               0812345678
-              </h3>
-              <img src={Mail} className="add_img"/>
-              <h3 className="add_write">
-               lilisindriani.blog@gmail.com
-              </h3>
-            </div>
-           
-            <div className="social_media">
-              <h3 className="write_social"> Contact Me:</h3>
-              <a href="https://web.facebook.com/indriani.liliz" target='_blank'>
-                <img src={Fb} className="media_img"/>
-              </a>
-              <a href="https://wa.me/6282124457564" target='_blank'>
-                <img src={Wa} className="media_img"/>
-              </a>
-              <a href="https://www.instagram.com/lilis.indrii/" target='_blank'>
-                <img src={Ig} className="media_img"/>
-              </a>
-              <a href="https://www.linkedin.com/in/lilisindriani?trk=contact-info" target='_blank'>
-                <img src={Li} className="media_img"/>
-              </a>
-              
-            </div>
+              <div className="wrap_img_add">
+                <div className="second_wrap">
+                  <img src={Address} className="add_img"/>
+                  <h3 className="add_write">
+                    RT1 RW1, Dukuh Brunyah, Desa Taggeran, Kecamatan Paninggaran,
+                    Kabupaten Pekalongan, Jawa Tengah, Indonesia
+                  </h3>
+                </div>
+                
+                <div className="second_wrap">
+                  <img src={Phone} className="add_img"/>
+                  <h3 className="add_write">
+                  0812345678
+                  </h3>
+                </div>
+                
+                <div className="second_wrap">
+                  <img src={Mail} className="add_img"/>
+                  <h3 className="add_write">
+                  lilisindriani.blog@gmail.com
+                  </h3>
+                </div>
+                
+              </div> 
+              <div className="explain_footer">
+                <a href="#moreinfo2" className="ex_write" id="moreinfo"> Home</a>
+              </div>
+            </div> 
           </div>
+           
+            
         
         </div>
       </div>
