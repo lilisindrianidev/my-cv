@@ -8,6 +8,7 @@
     min-height: 1000px;
    // margin: auto;
   .header{
+    font-family: 'Gloria Hallelujah', cursive;
     background-color: rgb(151, 97, 11);
     width: 100%;
     height: 100vh;
@@ -37,10 +38,12 @@
         }
       }
       .write_menu{
+        
         margin:auto;
         align-items: center;
         text-align: center;
         justify-content: space-between;
+        font-family: 'Gloria Hallelujah', cursive;
         .write{
           text-decoration: none;
           padding: 18px;
@@ -66,8 +69,9 @@
         text-align: center;
         justify-content: center;
         margin: auto;
-        //margin-top: 200px;
+        font-family: 'Gloria Hallelujah', cursive;
         .title_name{
+           
           margin: auto;
           color: rgb(255, 255, 255);
           font-size: 100px;
@@ -86,11 +90,16 @@
     border-radius: 0px 0px 50px 50px;
     margin-top: -1px;
     min-height: 100vh;
+    font-family: 'Gloria Hallelujah', cursive;
     background-color: #38373b;
     .title_me{
+      margin: auto;
+      width: 95%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      
       font-size: 40px;
-      color: white;
-      padding: 30px;
+      color: rgb(255, 255, 255); 
     }
     .wrap_me{
       padding-top: 50px;
@@ -98,7 +107,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 90%;
+      width: 95%;
       .write_me{
         width: 60%;
         margin-top: 30px;
@@ -151,32 +160,37 @@
     }
   }
   .education{
-   // margin: auto;
+    font-family: 'Gloria Hallelujah', cursive;
     margin-top:-1px;
     background-color: #444347;
     min-height: 100vh;
     border-radius: 50px 50px 0px 0px;
     .write_education{
+      margin: auto;
+      width: 95%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      
       font-size: 40px;
-      color: rgb(255, 255, 255);
-      margin-left: 30px;
-      padding-top: 30px;
-      // mar 
+      color: rgb(255, 255, 255); 
     }
     .school{
-      //margin: 30px;
+      width: 95%;
+      margin:auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       .sd{
-        border-radius: 15px 15px 15px 15px;
-        margin: 30px;
-        margin-right: 5px;
-        margin-top: 10px;
-        background-color: rgb(133, 130, 130);
-        width: 46%;
-        height: 300px;
+       
+        padding: 30px;
+        width:46%;
+        min-height: 300px;
+        margin: auto;
+        //margin-left: 5px;
+        margin-top: 30px;
         cursor: pointer;
+        border-radius: 15px;
+        background-color: rgb(133, 130, 130);
         .write_sd{
           padding: 10px;
           font-size: 30px;
@@ -187,13 +201,11 @@
           height: 50px;
         }
         .name_sd{
-          text-align: center;
-          align-items: center;
-          width: 150px;
+          width: 350px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
@@ -210,11 +222,11 @@
         }
       }
       .smp{
+        padding: 30px;
         width:46%;
-        height: 300px;
-        margin: 30px;
-        margin-left: 5px;
-        margin-top: 10px;
+        min-height: 300px;
+        margin:auto;
+        margin-top: 30px;
         cursor: pointer;
         border-radius: 15px;
         background-color: rgb(100, 97, 92);
@@ -224,13 +236,11 @@
           color: white;
         }
         .name_smp{
-          text-align: center;
-          align-items: center;
-          width: 200px;
+          width: 350px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
@@ -247,13 +257,13 @@
         }
       }
       .sma{
-        margin: 30px;
-        margin-right: 5px;
-        margin-top: 10px;
-        width: 46%;
-        height: 300px;
+        padding: 30px;
+        width:46%;
+        min-height: 300px;
+        margin:auto;
+        margin-top: 30px;
         cursor: pointer;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 15px;
         background-color: rgb(124, 115, 115);
         .write_sma{
           padding: 10px;
@@ -261,13 +271,11 @@
           color: white;
         }
         .name_sma{
-          text-align: center;
-          align-items: center;
-          width: 200px;
+          width: 350px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
@@ -284,12 +292,11 @@
         }
       }
       .university{
-       
+        padding: 30px;
         width:46%;
-        height: 300px;
-        margin: 30px;
-        margin-left: 5px;
-        margin-top: 10px;
+        min-height: 300px;
+        margin:auto;
+        margin-top: 30px;
         cursor: pointer;
         border-radius: 15px;
         background-color:rgb(79, 85, 95);
@@ -299,13 +306,11 @@
           padding: 10px;
         }
         .name_university{
-          text-align: center;
-          align-items: center;
           width: 350px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
@@ -330,19 +335,22 @@
     //border-radius: 50px 50px 0px 0px;
     min-height: 100vh;
     .title_skills{
+      margin: auto;
+      width: 95%;
+      padding-top: 50px;
+      padding-bottom: 50px;
       
-      // margin-left: 30px;
       font-size: 40px;
       color: rgb(255, 255, 255); 
     }
     .wrap_skills{
-      // margin-bottom: 5px;
-      // margin-top: 20px;
+      width: 95%;
       margin: auto;
      
       .ability{
         border-radius: 0 25% 0 25%;
         margin: auto;
+        padding-bottom: 20px;
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
         min-height: 400px;
@@ -362,31 +370,31 @@
           font-weight: bold;
         }
         .btn_abl_1{
-          
-          margin-top: 50px;
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 35px;
           .wrap_abl{
             border-radius: 25% 25% 25% 25%;
-            width: 80%;
+           
             margin-left: 30px;
             min-height: 40px;
             background-color: rgb(255, 255, 255);
             .btn_abl{
               font-family: 'Gloria Hallelujah', cursive;
-              text-align: center;
-              align-items: center;
-              justify-content: center;
-              margin: 20px;
+              margin: 10px;
               padding: 5px;
               font-size: 18px;
               min-height: 40px;
               //background-color: rgb(115, 124, 121);
               color: #221a1a;
              // border: 2px solid grey;
-              
+              .btn_abl_in{
+                margin-left: 24px;
+              }
             }
             &:hover{
               filter: brightness(120%);
-              padding: 15px;
+              padding: 5px;
             }
           }
           
@@ -406,7 +414,7 @@
         font-size: 30px;
         background-color: rgb(255, 255, 255);
         .title_write_ability{
-          color: black;
+          color: rgb(255, 145, 0);
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
@@ -436,7 +444,7 @@
         min-height: 400px;
         background-color: rgb(255, 255, 255);
         .title_write_ability2{
-          color: black;
+          color: rgb(255, 145, 0);
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
@@ -463,19 +471,78 @@
             padding: 10px;
             filter: brightness(120%);
             box-shadow: 4px 4px 10px rgb(121, 119, 119);
-           background-color: #b2b7c4;
+           background-color: #a1a5b1;
           }
         }
           
-      // &:hover{
-      //   filter: brightness(120%);
-      // }
+        &:hover{
+          filter: brightness(120%);
+         // padding: 15px;
+        } 
+      }
+      .ability3{
+        border-radius:  25% 0 25% 0;
+        margin: auto;
+        padding-bottom: 20px;
+        border: 20px solid rgb(228, 190, 22);
+        width: 98%;
+        min-height: 400px;
+        background-color: rgb(255, 255, 255);
+        .write_ability3{
+          color: rgb(255, 145, 0);
+          font-size: 30px;
+          margin: 30px;
+          font-weight: bold;
+          font-family: 'Gloria Hallelujah', cursive;
+        }
+        .write_ability13{
+           font-family: 'Gloria Hallelujah', cursive;
+          color: black;
+          font-size: 15px;
+          margin: 30px;
+          font-weight: bold;
+        }
+        .btn_abl_13{
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 35px;
+          .wrap_abl3{
+            border-radius: 25% 25% 25% 25%;
+           
+            margin-left: 30px;
+            min-height: 40px;
+            background-color: rgb(255, 255, 255);
+            .btn_abl3{
+              font-family: 'Gloria Hallelujah', cursive;
+              margin: 10px;
+              padding: 5px;
+              font-size: 18px;
+              min-height: 40px;
+              //background-color: rgb(115, 124, 121);
+              color: #221a1a;
+             // border: 2px solid grey;
+              .btn_abl_in3{
+                margin-left: 24px;
+              }
+            }
+            &:hover{
+              filter: brightness(120%);
+              padding: 5px;
+            }
+          }
+          
+        }
+        &:hover{
+          filter: brightness(120%);
+         // padding: 15px;
+        } 
       }
       
     }
     
   }
   .footer{
+    font-family: 'Gloria Hallelujah', cursive;
     display: block;
     background-color: #3c414d;
     color: rgb(175 180 220);
@@ -484,13 +551,13 @@
     padding-top: 32px;
     padding-bottom: 32px;
     .cover_footer{
-      width: auto;
-      padding-left: 16px;
-      padding-right: 16px;
-      
-      max-width: 1200px;
       margin: auto;
-      overflow: visible;
+      width: 95%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      
+      font-size: 40px;
+      color: rgb(255, 255, 255); 
       .address{
        
         //background-color: aliceblue; 

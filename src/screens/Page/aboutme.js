@@ -15,10 +15,13 @@ class About extends Component{
         <h1 className="title_me"> ABOUT ME</h1>
         <div className="wrap_me">
           <h3 className="write_me">
-            I am bachelor degree of Informatics enginering, i have 
-            specialization in Web Development(frontend). i have good 
-            ability to work on team and time management. 
-            i am looking for a company basic on IT technology. 
+            My name is Lilis indriani, i was born on April 24th 2000.
+            i am frontend developer for web apps. I am from Pekalongan
+            based in Yogyakarta over 4 years.
+           
+            <h3>
+            I respond critically to a , I am able to work in a team and create creative works.
+            </h3>
             <div className="social_media">
               <h3 className="write_social"> Contact Me:</h3>
               <a href="https://web.facebook.com/indriani.liliz" target='_blank'>

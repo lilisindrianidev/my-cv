@@ -30,7 +30,7 @@ class Page extends Component{
           <div className="cover_head">
             <div className="me">
               <h1 className="title_name"> Lilis Indriani</h1>
-              <h2 className="title_status"> Fresh Graduated
+              <h2 className="title_status"> Front End Developerfor Web Applications
               </h2>
               
             </div>
@@ -123,20 +123,33 @@ class Page extends Component{
           <h1 className="title_skills"> SKILLS</h1>
           <div className="wrap_skills">
             <div className="ability"> 
-              <h1 className="write_ability">Ability</h1>
+              <h1 className="write_ability">Programming Skills</h1>
               <h3 className="write_ability1">Web Developer for frontend with language programming:</h3>
               <div className="btn_abl_1">
                 <div className="wrap_abl">
-                  <btn className="btn_abl">JavaScript</btn>
+                  <li className="btn_abl">JavaScript
+                    <h3 className="btn_abl_in">Expert</h3>
+                  </li>
                 </div>
                 <div className="wrap_abl">
-                  <btn className="btn_abl">ReactJs</btn>
+                  <li className="btn_abl">SCSS
+                    <h3 className="btn_abl_in">Expert</h3>
+                  </li>
                 </div>
                 <div className="wrap_abl">
-                  <btn className="btn_abl">HTML</btn>
+                  <li className="btn_abl">CSS
+                    <h3 className="btn_abl_in">Expert</h3>
+                  </li>
                 </div>
                 <div className="wrap_abl">
-                  <btn className="btn_abl">SCSS</btn>
+                  <li className="btn_abl">Java
+                    <h3 className="btn_abl_in">Beginner</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl">
+                  <li className="btn_abl">MySql
+                    <h3 className="btn_abl_in">Intermediet</h3>
+                  </li>
                 </div>
               </div>
               
@@ -152,15 +165,15 @@ class Page extends Component{
               <div className="title_write_ability2"> Projects: 
                 <div className="img_abil">
                   <img src={Surat} className="img_a"/>
-                  <h3 className="other_write_ability2"> Government Correspondent service using Naive bayes metode</h3>
+                  <h3 className="other_write_ability2"> Government Correspondent service web app using Naive bayes metode</h3>
                 </div>
                 <div className="img_abil">
                   <img src={Godot} className="img_a"/>
-                  <h3 className="other_write_ability2"> Meniru aplikasi Godot</h3>
+                  <h3 className="other_write_ability2"> Duplicat fIrst Page for Godot Application</h3>
                 </div>
                 <div className="img_abil">
                   <img src={Desty} className="img_a"/>
-                  <h3 className="other_write_ability2"> Meniru aplikasi Desty</h3>
+                  <h3 className="other_write_ability2"> Duplicat fIrst Page for Desty Application</h3>
                 </div>
                 
                
@@ -168,11 +181,70 @@ class Page extends Component{
               </div>
             </div>
             <div className="other_ability">
-              <ul className="title_write_ability"> Language
-                <li className="other_write_ability"> Indonesian Language : Native</li>
-                <li className="other_write_ability"> English: Intermediate</li>
+              <ul className="title_write_ability"> Languages
+                <li className="other_write_ability"> Java : Native or bilingual proficiency</li>
+                <li className="other_write_ability"> Indonesian Language : Native or bilingual proficiency</li>
+                <li className="other_write_ability"> English: Professional working proficiency</li>
                 
               </ul>
+            </div>
+            <div className="ability"> 
+              <h1 className="write_ability">Framework Skills</h1>
+              <h3 className="write_ability1">Framework i ised to know:</h3>
+              <div className="btn_abl_1">
+                <div className="wrap_abl">
+                  <li className="btn_abl">Laravel
+                    <h3 className="btn_abl_in">Beginner</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl">
+                  <li className="btn_abl">ReactJs
+                    <h3 className="btn_abl_in">Expert</h3>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div className="ability3"> 
+              <h1 className="write_ability3">Tools Skills</h1>
+              <h3 className="write_ability13">The tools for my skills :</h3>
+              <div className="btn_abl_13">
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Visual Studio Code
+                    <h3 className="btn_abl_in3">Expert</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">MySql
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Git
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Gimp
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Krita
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Android Studio
+                    <h3 className="btn_abl_in3">Beginner</h3>
+                  </li>
+                </div>
+                <div className="wrap_abl3">
+                  <li className="btn_abl3">Adobe Ilustrator
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </li>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>

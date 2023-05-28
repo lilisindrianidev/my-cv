@@ -56,14 +56,10 @@
       } 
     }
     .aboutme{
-      border-radius: 0px 0px 50px 50px;
+    
       margin-top: -1px;
       min-height: 100vh;
-      background-color: #38373b;
       .title_me{
-        font-size: 40px;
-        color: white;
-        // padding: 30px;
       }
       .wrap_me{
         padding-top: 50px;
@@ -77,9 +73,6 @@
           margin: auto;
           text-align: center;
           align-items: center;
-          margin-top: 30px;
-          color: rgb(255, 255, 255);
-          font-size: 20px;
         }
         .image_me{
           align-items: center;
@@ -236,20 +229,9 @@
       
     }
     .footer{
-      display: block;
-      background-color: #3c414d;
-      color: rgb(175 180 220);
-      font-size: 0.9em;
-      margin-top: -1px;
-      padding-top: 32px;
-      padding-bottom: 32px;
+      
       .cover_footer{
-        width: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        
-        max-width: 1200px;
-        margin: auto;
+       
         overflow: visible;
         .address{
          
@@ -318,29 +300,9 @@
   
 .page{
   .header{
-    background-color: rgb(151, 97, 11);
-    width: 100%;
-    min-height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    //padding-top: 100px;
-    background-image:url(./../images/header.png);
-    background-position: center;
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    
+   
     .menu{
-      background-color: rgba(18, 18, 19, 0.15);
-      -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-      width: 100%;
-      height: 50px;
-      border-radius: 0px 0px 15px 15px;
-      display: flex; 
-      flex-wrap: wrap;
-
+      
       .burger{
         display: block;
         width: 100%;
@@ -494,13 +456,11 @@
           color: white;
         }
         .name_sd{
-          text-align: center;
-          align-items: center;
-          width: 150px;
+          width: 200px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
@@ -524,17 +484,15 @@
     
         }
         .name_smp{
-          text-align: center;
-          align-items: center;
           width: 200px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
-         .list_smp{
+          .list_smp{
           color: white;
           padding: 10px;
           font-size: 15px;
@@ -556,17 +514,15 @@
           color: white;
         }
         .name_sma{
-          text-align: center;
-          align-items: center;
           width: 200px;
+          min-height: 30px;
           background-color: rgb(255, 255, 255);
-          height: 40px;
           font-size: 20px;
-          padding: 5px;
+          padding: 10px;
           color: black;
           border-radius: 0px 15px 15px 0px;
         }
-         .list_sma{
+        .list_sma{
           color: white;
           padding: 10px;
           font-size: 15px;
@@ -590,7 +546,12 @@
         }
         .name_university{
           width: 200px;
-          height: 50px;
+          min-height: 30px;
+          background-color: rgb(255, 255, 255);
+          font-size: 20px;
+          padding: 10px;
+          color: black;
+          border-radius: 0px 15px 15px 0px;
         }
         .list_university{
           color: white;
@@ -630,41 +591,21 @@
         min-height: 400px;
         background-color: rgb(255, 255, 255);
         .write_ability{
-          color: black;
-          font-size: 30px;
-          margin: 30px;
-          font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .write_ability1{
-           font-family: 'Gloria Hallelujah', cursive;
-          color: black;
-          font-size: 15px;
-          margin: 20px;
-          font-weight: bold;
+          
         }
         .btn_abl_1{
           
           margin-top: 50px;
-          .wrap_abl{
-            border-radius: 25% 25% 25% 25%;
-            width: 80%;
-          margin-left: 30px;
-            min-height: 40px;
-            background-color: rgb(255, 255, 255);
-            .btn_abl{
-              font-family: 'Gloria Hallelujah', cursive;
-              text-align: center;
-              align-items: center;
-              justify-content: center;
-              margin: 20px;
-              padding: 5px;
-              font-size: 18px;
-              min-height: 40px;
-              //background-color: rgb(115, 124, 121);
-              color: #221a1a;
-             // border: 2px solid grey;
+          .wrap_abl3{
               
+            .btn_abl3{
+             
+              .btn_abl_in3{
+                margin-left: 24px;
+              }
             }
             &:hover{
               filter: brightness(120%);
@@ -688,18 +629,9 @@
         font-size: 30px;
         background-color: rgb(255, 255, 255);
         .title_write_ability{
-          color: black;
-          font-size: 30px;
-          margin: 30px;
-          font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
         }
         .other_write_ability{
-          font-family: 'Gloria Hallelujah', cursive;
-          color: black;
-          font-size: 18px;
-          margin: 30px;
-          font-weight: lighter;
+         
           
         }
         &:hover{
@@ -718,19 +650,16 @@
         min-height: 400px;
         background-color: rgb(255, 255, 255);
         .title_write_ability2{
-          color: black;
-          font-size: 30px;
-          margin: 30px;
-          font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .img_abil{
           display: flex;
           flex-wrap: wrap;
           padding: 20px;
           .img_a{
-            width: 50px;
-            height: 50px;
+            margin: auto;
+            width: 100px;
+            height: 100px;
             background-color: #d0ccfa;
           }
           .other_write_ability2{
@@ -738,20 +667,67 @@
             width: 80%;
             color: black;
             font-size: 18px;
-            padding-left: 10px;
+            padding-left: 1px;
             font-weight: lighter;
           }
           &:hover{
             padding: 10px;
             filter: brightness(120%);
             box-shadow: 4px 4px 10px rgb(121, 119, 119);
-           background-color: #b2b7c4;
+           
           }
         }
           
-      // &:hover{
-      //   filter: brightness(120%);
-      // }
+        .ability3{
+          border-radius:  25% 0 25% 0;
+          margin: auto;
+          padding-bottom: 20px;
+          border: 20px solid rgb(228, 190, 22);
+          width: 98%;
+          min-height: 400px;
+          background-color: rgb(255, 255, 255);
+          .write_ability3{
+  
+          }
+          .write_ability13{
+             font-family: 'Gloria Hallelujah', cursive;
+            color: black;
+            font-size: 15px;
+            margin: 30px;
+            font-weight: bold;
+          }
+          .btn_abl_13{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 35px;
+            .wrap_abl3{
+              
+              .btn_abl3{
+                font-family: 'Gloria Hallelujah', cursive;
+                margin: 10px;
+                padding: 5px;
+                font-size: 18px;
+                min-height: 40px;
+                color: #221a1a;
+               // border: 2px solid grey;
+                .btn_abl_in3{
+                  margin-left: 24px;
+                }
+              }
+              &:hover{
+                filter: brightness(120%);
+                padding: 5px;
+              }
+            }
+            
+          }
+          &:hover{
+            filter: brightness(120%);
+           // padding: 15px;
+          } 
+        }
+        
+      
       }
       
     }
@@ -1000,7 +976,7 @@
        
         .ability{
           margin: auto;
-          width: 80%;
+         
           .write_ability{
           }
           .btn_abl_1{
