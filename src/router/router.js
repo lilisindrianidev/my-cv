@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page from '../screens/Page/page.js';
-import Home from "../screens/Pahe/hello.js"
+import Home from "../screens/Page/hello.js"
 
 class Router extends Component{
 
