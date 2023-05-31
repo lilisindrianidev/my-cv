@@ -7,7 +7,7 @@ class Router extends Component{
   render(){
     return(
       // basename={window.location.pathname || '*'}
-      basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
+      // basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
       <BrowserRouter 
       >
         <Routes>
