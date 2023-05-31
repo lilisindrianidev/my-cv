@@ -599,12 +599,18 @@
         .btn_abl_1{
           
           margin-top: 50px;
-          .wrap_abl3{
+          .wrap_abl{
+            .wrap_abl_img{
+              // width: 50px;
+              // height: 50px;
+              // background-color: #afb6c9;
               
-            .btn_abl3{
+            }
+              
+            .btn_abl{
              
-              .btn_abl_in3{
-                margin-left: 24px;
+              .btn_abl_in{
+               
               }
             }
             &:hover{
@@ -663,7 +669,7 @@
             background-color: #d0ccfa;
           }
           .other_write_ability2{
-            font-family: 'Gloria Hallelujah', cursive;
+            
             width: 80%;
             color: black;
             font-size: 18px;
@@ -683,14 +689,14 @@
           margin: auto;
           padding-bottom: 20px;
           border: 20px solid rgb(228, 190, 22);
-          width: 98%;
+         
           min-height: 400px;
           background-color: rgb(255, 255, 255);
           .write_ability3{
   
           }
           .write_ability13{
-             font-family: 'Gloria Hallelujah', cursive;
+             
             color: black;
             font-size: 15px;
             margin: 30px;
@@ -702,16 +708,18 @@
             margin-top: 35px;
             .wrap_abl3{
               
+              .wrap_abl3_img{
+                width: 50px;
+                height: 50px;
+              }
               .btn_abl3{
-                font-family: 'Gloria Hallelujah', cursive;
-                margin: 10px;
-                padding: 5px;
-                font-size: 18px;
+                
+                font-size: 15px;
                 min-height: 40px;
                 color: #221a1a;
-               // border: 2px solid grey;
+                width: 200px;
                 .btn_abl_in3{
-                  margin-left: 24px;
+                 
                 }
               }
               &:hover{
@@ -1021,6 +1029,47 @@
           &:hover{
             filter: brightness(120%);
           }
+        }
+        .ability3{
+         
+          .write_ability3{
+  
+          }
+          .write_ability13{
+           
+          }
+          .btn_abl_13{
+            display: flex;
+            flex-flow: wrap;
+            .wrap_abl3{
+               
+              .wrap_abl3_img{
+                width: 80px;
+                height: 80px;
+                margin: auto;
+              }
+              .btn_abl3{
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: auto;
+                width: 180px;
+                font-size: 15px;
+                .btn_abl_in3{
+                 
+                }
+              }
+              &:hover{
+                filter: brightness(120%);
+                padding: 5px;
+              }
+            }
+            
+          }
+          &:hover{
+            filter: brightness(120%);
+           // padding: 15px;
+          } 
         }
       }
       

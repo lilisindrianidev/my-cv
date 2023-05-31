@@ -12,6 +12,22 @@ import SMP from './../../assets/images/smp.png'
 import SMA from '../../assets/images/sma.png'
 import Uni from '../../assets/images/uni.png'
 import Aboutme from './aboutme.js'
+import Ai from './../../assets/images/other/ai.png'
+import Gimp from './../../assets/images/other/gimp.png'
+import Git from '../../assets/images/other/git.png'
+import Github from '../../assets/images/other/github.png'
+import Java from './../../assets/images/other/java.jpg'
+import Krita from './../../assets/images/other/krita.png'
+import Laravel from '../../assets/images/other/laravel.svg'
+import Mysql from '../../assets/images/other/mysql.png'
+import React from '../../assets/images/other/react.png'
+import Ad from '../../assets/images/other/ad.png'
+import Vs from '../../assets/images/other/vs.png'
+import Js from '../../assets/images/other/js.png'
+import Sass from '../../assets/images/other/sass.png'
+import Css from '../../assets/images/other/css.png'
+import Php from '../../assets/images/other/php.png'
+
 
 class Page extends Component{
   render(){
@@ -78,7 +94,7 @@ class Page extends Component{
                 High School
               </h1>
               <h2 className="name_sma">
-                SMA N Paninggaran
+                SMA N 1 Paninggaran
               </h2>
               <li className="list_sma">
                 Graduated : 2018
@@ -127,29 +143,40 @@ class Page extends Component{
               <h3 className="write_ability1">Web Developer for frontend with language programming:</h3>
               <div className="btn_abl_1">
                 <div className="wrap_abl">
-                  <li className="btn_abl">JavaScript
+                  <img src={Js} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">JavaScript
                     <h3 className="btn_abl_in">Expert</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl">
-                  <li className="btn_abl">SCSS
+                  <img src={Sass} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">Sass
                     <h3 className="btn_abl_in">Expert</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl">
-                  <li className="btn_abl">CSS
+                  <img src={Css} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">CSS
                     <h3 className="btn_abl_in">Expert</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl">
-                  <li className="btn_abl">Java
+                  <img src={Java} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">Java
                     <h3 className="btn_abl_in">Beginner</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl">
-                  <li className="btn_abl">MySql
+                  <img src={Mysql} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">MySql
                     <h3 className="btn_abl_in">Intermediet</h3>
-                  </li>
+                  </h3>
+                </div>
+                 <div className="wrap_abl">
+                  <img src={Php} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">PHP
+                    <h3 className="btn_abl_in">Intermediet</h3>
+                  </h3>
                 </div>
               </div>
               
@@ -193,14 +220,16 @@ class Page extends Component{
               <h3 className="write_ability1">Framework i ised to know:</h3>
               <div className="btn_abl_1">
                 <div className="wrap_abl">
-                  <li className="btn_abl">Laravel
+                  <img src={Laravel} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">Laravel
                     <h3 className="btn_abl_in">Beginner</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl">
-                  <li className="btn_abl">ReactJs
+                <img src={React} className="wrap_abl_img"/>
+                  <h3 className="btn_abl">ReactJs
                     <h3 className="btn_abl_in">Expert</h3>
-                  </li>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -209,39 +238,46 @@ class Page extends Component{
               <h3 className="write_ability13">The tools for my skills :</h3>
               <div className="btn_abl_13">
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Visual Studio Code
+                   <img src={Vs} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Visual Studio Code
                     <h3 className="btn_abl_in3">Expert</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">MySql
+                   <img src={Mysql} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">MySql
                     <h3 className="btn_abl_in3">Intermediet</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Git
+                <img src={Git} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Git
                     <h3 className="btn_abl_in3">Intermediet</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Gimp
+                   <img src={Gimp} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Gimp
                     <h3 className="btn_abl_in3">Intermediet</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Krita
+                <img src={Krita} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Krita
                     <h3 className="btn_abl_in3">Intermediet</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Android Studio
+                  <img src={Ad} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Android Studio
                     <h3 className="btn_abl_in3">Beginner</h3>
-                  </li>
+                  </h3>
                 </div>
                 <div className="wrap_abl3">
-                  <li className="btn_abl3">Adobe Ilustrator
+                  <img src={Ai} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">Adobe Ilustrator
                     <h3 className="btn_abl_in3">Intermediet</h3>
-                  </li>
+                  </h3>
                 </div>
               </div>
               

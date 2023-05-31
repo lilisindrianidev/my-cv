@@ -6,7 +6,10 @@ class Router extends Component{
 
   render(){
     return(
-      <BrowserRouter basename={window.location.pathname || '*'}>
+      // basename={window.location.pathname || '*'}
+      basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
+      <BrowserRouter 
+      >
         <Routes>
           <Route path='/' element={<Page/>}/>
 

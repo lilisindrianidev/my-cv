@@ -8,7 +8,7 @@
     min-height: 1000px;
    // margin: auto;
   .header{
-    font-family: 'Gloria Hallelujah', cursive;
+     font-family: Verdana, sans-serif;
     background-color: rgb(151, 97, 11);
     width: 100%;
     height: 100vh;
@@ -43,7 +43,7 @@
         align-items: center;
         text-align: center;
         justify-content: space-between;
-        font-family: 'Gloria Hallelujah', cursive;
+       
         .write{
           text-decoration: none;
           padding: 18px;
@@ -69,7 +69,7 @@
         text-align: center;
         justify-content: center;
         margin: auto;
-        font-family: 'Gloria Hallelujah', cursive;
+        //font-family: 'Gloria Hallelujah', cursive;
         .title_name{
            
           margin: auto;
@@ -90,7 +90,7 @@
     border-radius: 0px 0px 50px 50px;
     margin-top: -1px;
     min-height: 100vh;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: Verdana, sans-serif;
     background-color: #38373b;
     .title_me{
       margin: auto;
@@ -160,7 +160,7 @@
     }
   }
   .education{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: Verdana, sans-serif;
     margin-top:-1px;
     background-color: #444347;
     min-height: 100vh;
@@ -330,6 +330,8 @@
     
   }
   .skills{
+     font-family: Verdana, sans-serif;
+   // font-family: 'Trebuchet MS', sans-serif;
     margin-top: -2px;
     background-color: #444347;
     //border-radius: 50px 50px 0px 0px;
@@ -360,10 +362,10 @@
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .write_ability1{
-           font-family: 'Gloria Hallelujah', cursive;
+          
           color: black;
           font-size: 15px;
           margin: 30px;
@@ -372,24 +374,34 @@
         .btn_abl_1{
           display: flex;
           flex-wrap: wrap;
-          margin-top: 35px;
+          width: 85%;
+          margin: auto;
+         
           .wrap_abl{
+            min-width: 30%;
             border-radius: 25% 25% 25% 25%;
-           
-            margin-left: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+
             min-height: 40px;
             background-color: rgb(255, 255, 255);
+            .wrap_abl_img{
+              width: 50px;
+              height: 50px;
+              background-color: #afb6c9;
+              
+            }
             .btn_abl{
-              font-family: 'Gloria Hallelujah', cursive;
               margin: 10px;
               padding: 5px;
               font-size: 18px;
-              min-height: 40px;
+              min-height: 20px;
+              width: 180px;
               //background-color: rgb(115, 124, 121);
               color: #221a1a;
-             // border: 2px solid grey;
               .btn_abl_in{
-                margin-left: 24px;
+               
               }
             }
             &:hover{
@@ -418,10 +430,10 @@
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .other_write_ability{
-          font-family: 'Gloria Hallelujah', cursive;
+         
           color: black;
           font-size: 18px;
           margin: 30px;
@@ -448,7 +460,7 @@
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .img_abil{
           display: flex;
@@ -460,7 +472,7 @@
             background-color: #d0ccfa;
           }
           .other_write_ability2{
-            font-family: 'Gloria Hallelujah', cursive;
+           
             width: 80%;
             color: black;
             font-size: 18px;
@@ -487,16 +499,17 @@
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
         min-height: 400px;
+        
         background-color: rgb(255, 255, 255);
         .write_ability3{
           color: rgb(255, 145, 0);
           font-size: 30px;
           margin: 30px;
           font-weight: bold;
-          font-family: 'Gloria Hallelujah', cursive;
+         
         }
         .write_ability13{
-           font-family: 'Gloria Hallelujah', cursive;
+          
           color: black;
           font-size: 15px;
           margin: 30px;
@@ -505,24 +518,36 @@
         .btn_abl_13{
           display: flex;
           flex-wrap: wrap;
+          width: 85%;
           margin-top: 35px;
+          margin: auto;
+          padding-bottom: 20px;
           .wrap_abl3{
+            margin-top: 10px;
+            min-width: 30%;
             border-radius: 25% 25% 25% 25%;
+            display: flex;
+            flex-wrap: wrap;
            
-            margin-left: 30px;
             min-height: 40px;
             background-color: rgb(255, 255, 255);
+            .wrap_abl3_img{
+              width: 50px;
+              height: 50px;
+              background-color: #afb6c9;
+              
+            }
             .btn_abl3{
-              font-family: 'Gloria Hallelujah', cursive;
               margin: 10px;
               padding: 5px;
               font-size: 18px;
-              min-height: 40px;
+              min-height: 20px;
+              width: 180px;
               //background-color: rgb(115, 124, 121);
               color: #221a1a;
              // border: 2px solid grey;
               .btn_abl_in3{
-                margin-left: 24px;
+                //margin-left: 24px;
               }
             }
             &:hover{
@@ -542,7 +567,7 @@
     
   }
   .footer{
-    font-family: 'Gloria Hallelujah', cursive;
+     font-family: Verdana, sans-serif;
     display: block;
     background-color: #3c414d;
     color: rgb(175 180 220);
