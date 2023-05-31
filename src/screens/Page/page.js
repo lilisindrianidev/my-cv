@@ -28,6 +28,7 @@ import Sass from '../../assets/images/other/sass.png'
 import Css from '../../assets/images/other/css.png'
 import Php from '../../assets/images/other/php.png'
 
+import { Link } from "react-router-dom";
 
 class Page extends Component{
   render(){
@@ -315,6 +316,7 @@ class Page extends Component{
               </div> 
               <div className="explain_footer">
                 <a href="#moreinfo2" className="ex_write" id="moreinfo"> Home</a>
+                <Link to="/home">hello</Link>
               </div>
             </div> 
           </div>
