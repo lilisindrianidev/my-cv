@@ -10,7 +10,7 @@ class Router extends Component{
       <BrowserRouter basename={window.location.pathname || '*'}>
         <Routes>
           <Route path='/' element={<Page/>}/>
-          <Route path="home" element={<Home/>}/>
+          {/* <Route path="home" element={<Home/>}/> */}
           
         </Routes>
       </BrowserRouter>
