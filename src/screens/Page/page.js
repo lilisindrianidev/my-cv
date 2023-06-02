@@ -184,9 +184,9 @@ class Page extends Component{
             </div>
             <div className="other_ability">
               <h2 className="title_write_ability">Organization</h2>
-              <ul className="other_write_ability"> i have ability work on team
+              <ul className="other_write_ability"> I have ability work on team
                 <li className="other_write_ability"> Lead of Theater Division Universitas Teknologi Digital Indonesia</li>
-                <li className="other_write_ability"> panitia acara di study pentas musik dan theater</li>
+                <li className="other_write_ability"> Event committee in music and theater performance studies</li>
               </ul>
             </div>
             <div className="other_ability2">
@@ -316,7 +316,7 @@ class Page extends Component{
               </div> 
               <div className="explain_footer">
                 <a href="#moreinfo2" className="ex_write" id="moreinfo"> Home</a>
-                <Link to="/home">hello</Link>
+               
               </div>
             </div> 
           </div>

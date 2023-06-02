@@ -350,6 +350,7 @@
       margin: auto;
      
       .ability{
+        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
         border-radius: 0 25% 0 25%;
         margin: auto;
         padding-bottom: 20px;
@@ -366,7 +367,7 @@
         }
         .write_ability1{
           
-          color: black;
+          color: rgb(0, 0, 0);
           font-size: 15px;
           margin: 30px;
           font-weight: bold;
@@ -379,34 +380,41 @@
          
           .wrap_abl{
             min-width: 30%;
-            border-radius: 25% 25% 25% 25%;
+            //border-radius: 25% 25% 25% 25%;
             display: flex;
             flex-wrap: wrap;
             margin-top: 10px;
-
+            margin: 10px;
             min-height: 40px;
-            background-color: rgb(255, 255, 255);
+            color: #000000;
+           // background-color: rgb(255, 255, 255);
             .wrap_abl_img{
               width: 50px;
               height: 50px;
               background-color: #afb6c9;
-              
+              border-radius: 15px;  
+             
+              // margin: auto;
             }
             .btn_abl{
               margin: 10px;
-              padding: 5px;
+              //padding: 5px;
               font-size: 18px;
               min-height: 20px;
               width: 180px;
               //background-color: rgb(115, 124, 121);
-              color: #221a1a;
+             
               .btn_abl_in{
                
               }
+             
             }
             &:hover{
               filter: brightness(120%);
               padding: 5px;
+              background-color: #ffffff;
+              box-shadow: 4px 4px 10px rgb(78, 77, 77);
+              color: black;
             }
           }
           
@@ -417,6 +425,7 @@
         } 
       }
       .other_ability{
+        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
         border-radius: 25% 0 25% 0 ;
         margin: auto;
         border: 20px solid rgb(228, 190, 22);
@@ -438,7 +447,7 @@
           font-size: 18px;
           margin: 30px;
           font-weight: lighter;
-          
+         
         }
         &:hover{
           filter: brightness(120%);
@@ -449,7 +458,7 @@
 
       .other_ability2{
         border-radius: 0 25% 0 25% ;
-
+        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
         margin: auto;
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
@@ -466,6 +475,7 @@
           display: flex;
           flex-wrap: wrap;
           padding: 20px;
+          color: rgb(0, 0, 0);
           .img_a{
             width: 50px;
             height: 50px;
@@ -474,16 +484,20 @@
           .other_write_ability2{
            
             width: 80%;
-            color: black;
+            //color: rgb(255, 255, 255);
             font-size: 18px;
             padding-left: 10px;
             font-weight: lighter;
+            &:hover{
+              //color: black;
+            } 
           }
           &:hover{
+            color: black;
             padding: 10px;
             filter: brightness(120%);
             box-shadow: 4px 4px 10px rgb(121, 119, 119);
-           background-color: #a1a5b1;
+            background-color: #a1a5b1;
           }
         }
           
@@ -499,7 +513,7 @@
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
         min-height: 400px;
-        
+        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
         background-color: rgb(255, 255, 255);
         .write_ability3{
           color: rgb(255, 145, 0);
@@ -510,7 +524,7 @@
         }
         .write_ability13{
           
-          color: black;
+          color: rgb(0, 0, 0);
           font-size: 15px;
           margin: 30px;
           font-weight: bold;
@@ -525,17 +539,18 @@
           .wrap_abl3{
             margin-top: 10px;
             min-width: 30%;
-            border-radius: 25% 25% 25% 25%;
+            //border-radius: 25% 25% 25% 25%;
             display: flex;
             flex-wrap: wrap;
-           
+            margin: 10px;
             min-height: 40px;
-            background-color: rgb(255, 255, 255);
+            color: #000000;
+           // background-color: rgb(255, 255, 255);
             .wrap_abl3_img{
               width: 50px;
               height: 50px;
               background-color: #afb6c9;
-              
+              border-radius: 15px; 
             }
             .btn_abl3{
               margin: 10px;
@@ -543,16 +558,17 @@
               font-size: 18px;
               min-height: 20px;
               width: 180px;
-              //background-color: rgb(115, 124, 121);
-              color: #221a1a;
-             // border: 2px solid grey;
+              
               .btn_abl_in3{
                 //margin-left: 24px;
               }
             }
             &:hover{
+              color: black;
               filter: brightness(120%);
               padding: 5px;
+              background-color: #ffffff;
+              box-shadow: 4px 4px 10px rgb(78, 77, 77);
             }
           }
           
