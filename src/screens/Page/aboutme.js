@@ -22,7 +22,7 @@ class About extends Component{
             <h3>
             I respond critically to a , I am able to work in a team and create creative works.
             </h3>
-           
+            <h3> I love Mahmoud</h3>
             <div className="social_media">
               <h3 className="write_social"> Contact Me:</h3>
               <a  target='_blank'>
