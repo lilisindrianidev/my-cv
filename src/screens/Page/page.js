@@ -28,6 +28,12 @@ import Sass from '../../assets/images/other/sass.png'
 import Css from '../../assets/images/other/css.png'
 import Php from '../../assets/images/other/php.png'
 
+import A from '../../assets/images/other/1.png'
+import B from '../../assets/images/other/2.png'
+import C from '../../assets/images/other/3.png'
+import D from '../../assets/images/other/4.png'
+
+
 import { Link } from "react-router-dom";
 
 class Page extends Component{
@@ -64,9 +70,13 @@ class Page extends Component{
           <h2 className="write_education"> EDUCATION</h2>
           <div className="school">
             <div className="sd">
-              <h1 className="write_sd">
-                Primary School
-              </h1>
+              <div className="wrap_img">
+                <h1 className="write_sd">
+                  Primary School
+                </h1>
+                <img src={SD} className="sd_image"/>
+              </div>
+              
               {/* <img src={SD} className="sd_image"/> */}
               <h1 className="name_sd">
                 SDN Tanggeran
@@ -77,9 +87,12 @@ class Page extends Component{
             </div>
           
             <div className="smp">
-              <h1 className="write_smp">
-                Middle School
-              </h1>
+              <div className="wrap_img">
+                <h1 className="write_smp">
+                  Middle School
+                </h1>
+                <img src={SMP} className="smp_image"/>
+              </div>
               <h2 className="name_smp">
                 SMP N 1 Paninggaran
               </h2>
@@ -91,9 +104,12 @@ class Page extends Component{
               </li>
             </div>
             <div className="sma">
-              <h1 className="write_sma">
-                High School
-              </h1>
+              <div className="wrap_img">
+                <h1 className="write_sma">
+                  High School
+                </h1>
+                <img src={SMA} className="sma_image"/>
+              </div>
               <h2 className="name_sma">
                 SMA N 1 Paninggaran
               </h2>
@@ -111,9 +127,12 @@ class Page extends Component{
               </li>
             </div>
             <div className="university">
-              <h1 className="write_university">
-                University
-              </h1>
+              <div className="wrap_img">
+                <h1 className="write_university">
+                  University
+                </h1>
+                <img src={Uni} className="university_image"/>
+              </div>
               <h2 className="name_university">
                 Universitas Teknologi Digital Indonesia
               </h2>
@@ -121,7 +140,7 @@ class Page extends Component{
                 Graduated : 2023
               </li>
               <li className="list_university">
-                Bachelor of Informatics enginering 
+                Bachelor of Computer Science
               </li>
               <li className="list_university">
                 GPA : 3.64 

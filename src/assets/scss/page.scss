@@ -102,6 +102,7 @@
       color: rgb(255, 255, 255); 
     }
     .wrap_me{
+    
       padding-top: 50px;
       margin: auto;
       display: flex;
@@ -160,6 +161,10 @@
     }
   }
   .education{
+    padding-bottom:100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url( ../images/other/6.png);
     font-family: Verdana, sans-serif;
     margin-top:-1px;
     background-color: #444347;
@@ -180,26 +185,39 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+     
       .sd{
        
         padding: 30px;
         width:46%;
         min-height: 300px;
         margin: auto;
-        //margin-left: 5px;
+        border:5px solid rgb(255, 255, 255);
         margin-top: 30px;
         cursor: pointer;
         border-radius: 15px;
         background-color: rgb(133, 130, 130);
-        .write_sd{
-          padding: 10px;
-          font-size: 30px;
-          color: white;
+        .wrap_img{
+          display: flex;
+            flex-wrap: wrap;
+          .write_sd{
+            
+            padding: 10px;
+            font-size: 30px;
+            color: white;
+            
+          }
+          .sd_image{
+       
+            margin-left: 80%;
+            width: 130px;
+            height: 130px;
+            margin-top: -20%;
+            filter: grayscale(100%);
+          }
+         
         }
-        .sd_image{
-          width: 50px;
-          height: 50px;
-        }
+       
         .name_sd{
           width: 350px;
           min-height: 30px;
@@ -222,6 +240,7 @@
         }
       }
       .smp{
+         border:5px solid rgb(255, 255, 255);
         padding: 30px;
         width:46%;
         min-height: 300px;
@@ -230,10 +249,23 @@
         cursor: pointer;
         border-radius: 15px;
         background-color: rgb(100, 97, 92);
-        .write_smp{
-          padding:10px;
-          font-size: 30px;
-          color: white;
+        
+        .wrap_img{
+          display: flex;
+          flex-wrap: wrap;
+          .write_smp{
+            padding:10px;
+            font-size: 30px;
+            color: white;
+          }
+          .smp_image{
+            margin-left: 80%;
+            width: 130px;
+            height: 130px;
+            margin-top: -20%;
+            filter: grayscale(100%);
+          }
+         
         }
         .name_smp{
           width: 350px;
@@ -257,6 +289,7 @@
         }
       }
       .sma{
+        border:5px solid rgb(255, 255, 255);
         padding: 30px;
         width:46%;
         min-height: 300px;
@@ -265,10 +298,22 @@
         cursor: pointer;
         border-radius: 15px;
         background-color: rgb(124, 115, 115);
-        .write_sma{
-          padding: 10px;
-          font-size: 30px;
-          color: white;
+        .wrap_img{
+          display: flex;
+          flex-wrap: wrap;
+          .write_sma{
+            padding:10px;
+            font-size: 30px;
+            color: white;
+          }
+          .sma_image{
+            margin-left: 80%;
+            width: 130px;
+            height: 130px;
+            margin-top: -20%;
+            filter: grayscale(100%);
+          }
+         
         }
         .name_sma{
           width: 350px;
@@ -292,6 +337,7 @@
         }
       }
       .university{
+        border:5px solid rgb(255, 255, 255);
         padding: 30px;
         width:46%;
         min-height: 300px;
@@ -300,10 +346,22 @@
         cursor: pointer;
         border-radius: 15px;
         background-color:rgb(79, 85, 95);
-        .write_university{
-          font-size: 30px;
-          color: white;
-          padding: 10px;
+        .wrap_img{
+          display: flex;
+          flex-wrap: wrap;
+          .write_university{
+            padding:10px;
+            font-size: 30px;
+            color: white;
+          }
+          .university_image{
+            margin-left: 80%;
+            width: 130px;
+            height: 130px;
+            margin-top: -20%;
+            filter: grayscale(100%);
+          }
+         
         }
         .name_university{
           width: 350px;
@@ -334,7 +392,7 @@
    // font-family: 'Trebuchet MS', sans-serif;
     margin-top: -2px;
     background-color: #444347;
-    //border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     min-height: 100vh;
     .title_skills{
       margin: auto;
@@ -375,8 +433,8 @@
         .btn_abl_1{
           display: flex;
           flex-wrap: wrap;
-          width: 85%;
-          margin: auto;
+          width: 90%;
+         margin: auto;
          
           .wrap_abl{
             min-width: 30%;
@@ -583,9 +641,10 @@
     
   }
   .footer{
+  
      font-family: Verdana, sans-serif;
     display: block;
-    background-color: #3c414d;
+    background-color: #444347;
     color: rgb(175 180 220);
     font-size: 0.9em;
     margin-top: -1px;

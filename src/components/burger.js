@@ -1,8 +1,7 @@
 import { Component } from "react";
 import './../router/router.js'
 import Burgerr from './../assets/images/burger.png';
-import WBurgerr from './../assets/images/white_burger.png';
-
+import WBurger from './../assets/images/white_burger.png';
 
 class Burgers extends Component{
   constructor(props){
@@ -17,28 +16,23 @@ class Burgers extends Component{
     }else{
       this.setState({burger:true})
     }
-    
   }
   render(){
     return(
-
       <div >
         <>
           {this.state.burger == false &&
             <a className="burger">
-            <img src={WBurgerr} className="image_burger" onClick={this.hamburger}/>
+            <img src={WBurger } className="image_burger" onClick={this.hamburger}/>
             </a>
           }
-
         </>
-       
         {this.state.burger &&
           <div className="burger" onClick={this.hamburger}>
             <div className="color">
               <img src={Burgerr} className="image_burger2"/>
               <div className="write_menu2">
               <a href="#home" className="write2"> Home</a>
-
             </div>
             <div className="write_menu2">
               <a href="#education" className="write2"> Ediucation</a>
@@ -50,14 +44,10 @@ class Burgers extends Component{
               <a href="#moreinfo"  className="write2"> More Info</a>
             </div>
             </div>
-            
+            <div></div>            
           </div>
         }
-       
-        
-      
       </div>
-      
     )
   }
 }
