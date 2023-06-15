@@ -145,7 +145,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        // margin-left: 990px;
+       margin-bottom: 50px;
         width: 420px;
         height:450px;
         background-color: rgb(97, 92, 50);
@@ -175,7 +175,6 @@
       width: 95%;
       padding-top: 50px;
       padding-bottom: 50px;
-      
       font-size: 40px;
       color: rgb(255, 255, 255); 
     }
@@ -388,11 +387,11 @@
     
   }
   .skills{
-     font-family: Verdana, sans-serif;
-   // font-family: 'Trebuchet MS', sans-serif;
+    font-family: Verdana, sans-serif;
     margin-top: -2px;
+    padding-bottom: 20px;
     background-color: #444347;
-    border-radius: 50px 50px 0px 0px;
+   
     min-height: 100vh;
     .title_skills{
       margin: auto;
@@ -408,7 +407,10 @@
       margin: auto;
      
       .ability{
-        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
+       background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
+        
+        background-position: center;
+        background-size: cover;
         border-radius: 0 25% 0 25%;
         margin: auto;
         padding-bottom: 20px;
@@ -483,7 +485,8 @@
         } 
       }
       .other_ability{
-        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
+        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
+        
         border-radius: 25% 0 25% 0 ;
         margin: auto;
         border: 20px solid rgb(228, 190, 22);
@@ -515,11 +518,12 @@
       }
 
       .other_ability2{
-        border-radius: 0 25% 0 25% ;
-        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
+        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
+        
         margin: auto;
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
+        border-radius: 0 25% 0 25%;
         min-height: 400px;
         background-color: rgb(255, 255, 255);
         .title_write_ability2{
@@ -571,7 +575,8 @@
         border: 20px solid rgb(228, 190, 22);
         width: 98%;
         min-height: 400px;
-        background-image: linear-gradient(rgb(78, 77, 77), rgb(255, 255, 255));
+        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
+        
         background-color: rgb(255, 255, 255);
         .write_ability3{
           color: rgb(255, 145, 0);
@@ -641,8 +646,7 @@
     
   }
   .footer{
-  
-     font-family: Verdana, sans-serif;
+    font-family: Verdana, sans-serif;
     display: block;
     background-color: #444347;
     color: rgb(175 180 220);

@@ -450,10 +450,21 @@
           width: 80%;
           min-height: 400px;
           cursor: pointer;
-          .write_sd{
-            padding: 10px;
-            font-size: 30px;
-            color: white;
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_sd{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .sd_image{
+              margin-left: 80%;
+              width: 100px;
+              height: 100px;
+              margin-top: -20%;
+              filter: grayscale(100%);
+            }
           }
           .name_sd{
             width: 200px;
@@ -480,9 +491,23 @@
           margin-top: 15px;
           width: 80%;
           min-height: 400px;
-          .write_smp{
-      
-          }
+            .wrap_img{
+              display: flex;
+              flex-wrap: wrap;
+              .write_smp{
+                padding: 10px;
+                font-size: 30px;
+                color: white;
+              }
+              .smp_image{
+                margin-left: 80%;
+                width: 100px;
+                height: 100px;
+                margin-top: -20%;
+                filter: grayscale(100%);
+              }
+             
+            }
           .name_smp{
             width: 200px;
             min-height: 30px;
@@ -508,10 +533,23 @@
           width: 80%;
           min-height: 400px;
         
-          .write_sma{
-            padding: 10px;
-            font-size: 30px;
-            color: white;
+          
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_sma{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .sma_image{
+              margin-left: 80%;
+              width: 100px;
+              height: 100px;
+              margin-top: -20%;
+              filter: grayscale(100%);
+            }
+           
           }
           .name_sma{
             width: 200px;
@@ -539,10 +577,21 @@
           margin-bottom: 90px;
           margin-top: 15px;
       
-          .write_university{
-            font-size: 30px;
-            color: white;
-            padding: 10px;
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_university{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .university_image{
+              margin-left: 80%;
+              width: 100px;
+              height: 100px;
+              margin-top: -20%;
+              filter: grayscale(100%);
+            }
           }
           .name_university{
             width: 200px;
@@ -899,10 +948,21 @@
         .sd{
          
          
-          .write_sd{
-            padding: 10px;
-            font-size: 30px;
-            color: white;
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_sd{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .sd_image{
+              margin-left: 75%;
+              width: 90px;
+              height: 90px;
+              margin-top: 0%;
+              filter: grayscale(100%);
+            }
           }
           .name_sd{
            
@@ -918,8 +978,21 @@
          
           width: 80%;
          
-          .write_smp{
-           
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_smp{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .smp_image{
+              margin-left: 75%;
+              width: 90px;
+              height: 90px;
+              margin-top: 0%;
+              filter: grayscale(100%);
+            }
           }
           .name_smp{
            
@@ -935,9 +1008,21 @@
         .sma{
          
           width: 80%;
-          
-          .write_sma{
-           
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_sma{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .sma_image{
+              margin-left: 75%;
+              width: 90px;
+              height: 90px;
+              margin-top: 0%;
+              filter: grayscale(100%);
+            }
           }
           .name_sma{
             
@@ -953,8 +1038,21 @@
         .university{
           width:80%;
          
-          .write_university{
-           
+          .wrap_img{
+            display: flex;
+            flex-wrap: wrap;
+            .write_university{
+              padding: 10px;
+              font-size: 30px;
+              color: white;
+            }
+            .university_image{
+              margin-left: 75%;
+              width: 90px;
+              height: 90px;
+              margin-top: 0px;
+              filter: grayscale(100%);
+            }
           }
           .name_university{
             width: 200px;
