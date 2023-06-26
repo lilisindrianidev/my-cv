@@ -43,6 +43,9 @@ class Page extends Component{
         <div className="header">
           <div className="menu" id="moreinfo2">
             <Burger/>
+            <div className="name">
+              <div className="inside_name">L</div>
+            </div>
             <div className="write_menu">
               <a href="#home" className="write"> Home</a>
               <a href="#education" className="write"> Ediucation</a>

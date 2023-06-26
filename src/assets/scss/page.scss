@@ -1,15 +1,21 @@
 *{
     box-sizing: border-box;
+    // overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; 
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 .page{
-    //width: 96%;
-   
     height: auto;
     min-height: 1000px;
    // margin: auto;
   .header{
      font-family: Verdana, sans-serif;
-    background-color: rgb(151, 97, 11);
+    //background-color: rgb(151, 97, 11);
+    background-color: #17202A;
     width: 100%;
     height: 100vh;
     -webkit-background-size: cover;
@@ -35,6 +41,27 @@
         display: none;
         .burger_image{
           display: none;
+        }
+      }
+      .name{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+       
+        .inside_name{
+          margin:auto;
+          align-items: center;
+          text-align: center;
+          color:white;
+          font-weight: bold;
+          background-color: white;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
         }
       }
       .write_menu{
@@ -92,7 +119,9 @@
     min-height: 100vh;
     font-family: Verdana, sans-serif;
     background-color: #38373b;
+   
     .title_me{
+      font-weight: bold; 
       margin: auto;
       width: 95%;
       padding-top: 50px;
@@ -101,6 +130,7 @@
       font-size: 40px;
       color: rgb(255, 255, 255); 
     }
+    
     .wrap_me{
     
       padding-top: 50px;
@@ -170,13 +200,15 @@
     background-color: #444347;
     min-height: 100vh;
     border-radius: 50px 50px 0px 0px;
+    border: 30px solid #263238;
     .write_education{
       margin: auto;
       width: 95%;
       padding-top: 50px;
       padding-bottom: 50px;
       font-size: 40px;
-      color: rgb(255, 255, 255); 
+      color: rgb(255, 255, 255);
+      font-weight: bold; 
     }
     .school{
       width: 95%;
@@ -390,7 +422,7 @@
     font-family: Verdana, sans-serif;
     margin-top: -2px;
     padding-bottom: 20px;
-    background-color: #444347;
+    background-color: #263238;
    
     min-height: 100vh;
     .title_skills{
@@ -398,7 +430,7 @@
       width: 95%;
       padding-top: 50px;
       padding-bottom: 50px;
-      
+      font-weight: bold;
       font-size: 40px;
       color: rgb(255, 255, 255); 
     }
@@ -407,17 +439,17 @@
       margin: auto;
      
       .ability{
-       background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
-        
+       //background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
+        background-color: #1C2833 ;
         background-position: center;
         background-size: cover;
         border-radius: 0 25% 0 25%;
         margin: auto;
         padding-bottom: 20px;
-        border: 20px solid rgb(228, 190, 22);
+        border: 20px solid rgb(255, 255, 255);
         width: 98%;
         min-height: 400px;
-        background-color: rgb(255, 255, 255);
+        //background-color: rgb(255, 255, 255);
         .write_ability{
           color: rgb(255, 145, 0);
           font-size: 30px;
@@ -427,7 +459,7 @@
         }
         .write_ability1{
           
-          color: rgb(0, 0, 0);
+          color: white;
           font-size: 15px;
           margin: 30px;
           font-weight: bold;
@@ -446,7 +478,7 @@
             margin-top: 10px;
             margin: 10px;
             min-height: 40px;
-            color: #000000;
+            color: #ffffff;
            // background-color: rgb(255, 255, 255);
             .wrap_abl_img{
               width: 50px;
@@ -456,7 +488,9 @@
              
               // margin: auto;
             }
+            
             .btn_abl{
+             
               margin: 10px;
               //padding: 5px;
               font-size: 18px;
@@ -470,11 +504,12 @@
              
             }
             &:hover{
+              color: black;
               filter: brightness(120%);
               padding: 5px;
               background-color: #ffffff;
               box-shadow: 4px 4px 10px rgb(78, 77, 77);
-              color: black;
+              
             }
           }
           
@@ -485,16 +520,16 @@
         } 
       }
       .other_ability{
-        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
-        
+         background-color: #1C2833 ;
         border-radius: 25% 0 25% 0 ;
         margin: auto;
-        border: 20px solid rgb(228, 190, 22);
+        border: 20px solid rgb(255, 255, 255);
+        //border: 20px solid rgb(228, 190, 22);
         width: 98%;
         min-height: 400px;
         color: black;
         font-size: 30px;
-        background-color: rgb(255, 255, 255);
+       // background-color: rgb(255, 255, 255);
         .title_write_ability{
           color: rgb(255, 145, 0);
           font-size: 30px;
@@ -503,8 +538,7 @@
          
         }
         .other_write_ability{
-         
-          color: black;
+          color: white;
           font-size: 18px;
           margin: 30px;
           font-weight: lighter;
@@ -518,14 +552,13 @@
       }
 
       .other_ability2{
-        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
-        
+        background-color: #1C2833 ;
         margin: auto;
-        border: 20px solid rgb(228, 190, 22);
+        border: 20px solid rgb(255, 255, 255);
         width: 98%;
         border-radius: 0 25% 0 25%;
         min-height: 400px;
-        background-color: rgb(255, 255, 255);
+       // background-color: rgb(255, 255, 255);
         .title_write_ability2{
           color: rgb(255, 145, 0);
           font-size: 30px;
@@ -537,7 +570,7 @@
           display: flex;
           flex-wrap: wrap;
           padding: 20px;
-          color: rgb(0, 0, 0);
+          color: white;
           .img_a{
             width: 50px;
             height: 50px;
@@ -546,7 +579,7 @@
           .other_write_ability2{
            
             width: 80%;
-          
+           
             font-size: 18px;
             padding-left: 10px;
             font-weight: lighter;
@@ -555,7 +588,7 @@
             } 
           }
           &:hover{
-            color: black;
+            color: rgb(0, 0, 0);
             padding: 10px;
             filter: brightness(120%);
             box-shadow: 4px 4px 10px rgb(121, 119, 119);
@@ -572,12 +605,10 @@
         border-radius:  25% 0 25% 0;
         margin: auto;
         padding-bottom: 20px;
-        border: 20px solid rgb(228, 190, 22);
+        border: 20px solid rgb(255, 255, 255);
         width: 98%;
         min-height: 400px;
-        background-image: linear-gradient(rgb(34, 8, 8),  rgb(255, 255, 255));
-        
-        background-color: rgb(255, 255, 255);
+        background-color: #1C2833 ;
         .write_ability3{
           color: rgb(255, 145, 0);
           font-size: 30px;
@@ -587,10 +618,11 @@
         }
         .write_ability13{
           
-          color: rgb(0, 0, 0);
+          
           font-size: 15px;
           margin: 30px;
           font-weight: bold;
+          color: white;
         }
         .btn_abl_13{
           display: flex;
@@ -599,6 +631,7 @@
           margin-top: 35px;
           margin: auto;
           padding-bottom: 20px;
+          color: white;
           .wrap_abl3{
             margin-top: 10px;
             min-width: 30%;
@@ -607,7 +640,7 @@
             flex-wrap: wrap;
             margin: 10px;
             min-height: 40px;
-            color: #000000;
+            
            // background-color: rgb(255, 255, 255);
             .wrap_abl3_img{
               width: 50px;
@@ -648,7 +681,7 @@
   .footer{
     font-family: Verdana, sans-serif;
     display: block;
-    background-color: #444347;
+    background-color: #263238;
     color: rgb(175 180 220);
     font-size: 0.9em;
     margin-top: -1px;
