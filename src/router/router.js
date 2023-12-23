@@ -7,8 +7,8 @@ class Router extends Component{
 
   render(){
     return(
-      <BrowserRouter >
-      {/* basename={window.location.pathname || '*'} */}
+      <BrowserRouter  basename={window.location.pathname || '*'}>
+      {/* */}
         <Routes>
           <Route path='/' element={<Page/>}/>
           <Route path="home" element={<Home/>}/>
@@ -18,4 +18,4 @@ class Router extends Component{
     )  
   }
 }
-export default Router;
+export default Router;  
