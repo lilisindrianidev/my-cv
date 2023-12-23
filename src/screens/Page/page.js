@@ -336,7 +336,7 @@ class Page extends Component{
                 <div className="second_wrap">
                   <img src={Phone} className="add_img"/>
                   <h3 className="add_write">
-                  0812345678
+                  082124457564
                   </h3>
                 </div>
                 
