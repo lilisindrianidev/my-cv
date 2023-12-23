@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.9c22e9d3.css",
-    "main.js": "/my-cv/static/js/main.3f707f17.js",
+    "main.css": "/my-cv/static/css/main.4bd4a2ff.css",
+    "main.js": "/my-cv/static/js/main.07a660cb.js",
     "static/js/787.a48f559c.chunk.js": "/my-cv/static/js/787.a48f559c.chunk.js",
     "static/media/lilis.png": "/my-cv/static/media/lilis.f63b75aca3eebf65d635.png",
     "static/media/2.png": "/my-cv/static/media/2.48e825d4b841f8e3bbc5.png",
@@ -24,6 +24,7 @@
     "static/media/java.jpg": "/my-cv/static/media/java.1585f50a82dcd6784089.jpg",
     "static/media/react.png": "/my-cv/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/sd.png": "/my-cv/static/media/sd.24b3df78f2a878db965a.png",
+    "static/media/languages3.png": "/my-cv/static/media/languages3.4e23d18caaa4b94ed1bd.png",
     "static/media/3.png": "/my-cv/static/media/3.faa783dcbf102b34021c.png",
     "static/media/mysql.png": "/my-cv/static/media/mysql.97dcf359dd133fed966c.png",
     "static/media/1.png": "/my-cv/static/media/1.68ef97554e89c589c76c.png",
@@ -35,12 +36,12 @@
     "static/media/laravel.svg": "/my-cv/static/media/laravel.610267b02a415f7993f2bcb6f3332250.svg",
     "static/media/logo.svg": "/my-cv/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-cv/index.html",
-    "main.9c22e9d3.css.map": "/my-cv/static/css/main.9c22e9d3.css.map",
-    "main.3f707f17.js.map": "/my-cv/static/js/main.3f707f17.js.map",
+    "main.4bd4a2ff.css.map": "/my-cv/static/css/main.4bd4a2ff.css.map",
+    "main.07a660cb.js.map": "/my-cv/static/js/main.07a660cb.js.map",
     "787.a48f559c.chunk.js.map": "/my-cv/static/js/787.a48f559c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c22e9d3.css",
-    "static/js/main.3f707f17.js"
+    "static/css/main.4bd4a2ff.css",
+    "static/js/main.07a660cb.js"
   ]
 }
