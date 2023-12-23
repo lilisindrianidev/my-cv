@@ -20,7 +20,8 @@ class About extends Component{
             based in Yogyakarta over 4 years.
            
             <h3>
-            I respond critically to a , I am able to work in a team and create creative works.
+            I am a critical thinking,  I am able to work in a team and create creative works, create new innovaton, i can 
+             make a the best future with my code.
             </h3>
         
             <div className="social_media">

@@ -1,0 +1,298 @@
+@media(max-width:1440px){
+  
+    .page{
+      .header{
+       
+        .menu{
+         
+    
+          .burger{
+            
+            
+            .image_burger{
+           
+            
+            }
+            .color{
+            
+              .image_burger2{
+              
+              }
+            }
+          }
+          .write_menu{
+            
+      
+            .write{
+              
+            }
+          }
+        }
+        .cover_head{
+          padding-top: 100px;
+          width: 80%;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .me{
+           
+            //margin-top: 200px;
+            .title_name{
+              color: rgb(255, 255, 255);
+              font-size: 50px;
+             
+            }
+            .title_status{
+              color: white;
+              font-size: 30px;
+            }
+            .title_explain{
+              color: white;
+              font-size: 20px;
+            }
+          }
+         
+        } 
+      }
+      .aboutme{
+      
+        margin-top: -1px;
+        min-height: 100vh;
+        .title_me{
+        }
+        .wrap_me{
+          padding-top: 50px;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 90%;
+          .write_me{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            align-items: center;
+          }
+          .image_me{
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 320px;
+            height:350px;
+            background-color: rgb(97, 92, 50);
+            border-radius: 50% 50% 50% 50%;
+            .me{
+              
+              //margin-left: 1000px;
+              width: 300px;
+              height:350px;
+              border-radius: 50% 50% 50% 50%;
+            }
+          }
+        }
+      } 
+      .education{
+      
+        .write_education{
+         
+        }
+        .school{
+         
+          .sd{
+           
+            .write_sd{
+             
+            }
+            .name_sd{
+             
+            }
+            .list_sd{
+             
+            }
+            &:hover{
+               // background-color: rgb(253, 252, 251);
+            }
+          }
+          .smp{
+           
+            
+           
+            .write_smp{
+             
+            }
+            .name_smp{
+             
+            }
+             .list_smp{
+              
+            }
+            &:hover{
+              filter: brightness(120%);
+              -webkit-filter: brightness(120%);
+            }
+          }
+          .sma{
+           
+          
+            
+            .write_sma{
+             
+            }
+            .name_sma{
+              
+            }
+            .list_sma{
+              
+            }
+            &:hover{
+              filter: brightness(120%);
+              -webkit-filter: brightness(120%);
+            }
+          }
+          .university{
+           
+           
+            .write_university{
+             
+            }
+            .name_university{
+            
+            }
+            .list_university{
+             
+            }
+            &:hover{
+              -webkit-filter: brightness(120%);
+              filter: brightness(120%);
+            }
+          }
+        }
+        
+      }
+      .skills{
+        //background-color: #444347;
+        .title_skills{
+          
+        }
+        .wrap_skills{
+         
+          .ability{
+           
+            .write_ability{
+            }
+            .btn_abl_1{
+              .wrap_abl{
+                .btn_abl{
+                }
+                &:hover{
+                  filter: brightness(120%);
+                  padding: 15px;
+                }
+              }
+              
+            }
+            &:hover{
+              filter: brightness(120%);
+             // padding: 15px;
+            } 
+          }
+          .other_ability{
+           
+            .title_write_ability{
+       
+            }
+            .other_write_ability{
+            
+            }
+            &:hover{
+              filter: brightness(120%);
+            }
+          }
+    
+          .other_ability2{
+           
+            .title_write_ability2{
+             
+            }
+            .other_write_ability2{
+             
+            }
+            &:hover{
+              filter: brightness(120%);
+            }
+          }
+        }
+        
+      }
+      .footer{
+        
+        .cover_footer{
+         
+          overflow: visible;
+          .address{
+           
+            //background-color: aliceblue; 
+            width: 95%;
+            margin: 5px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            .write_add{
+              color: white;
+              font-size: 20px;
+              padding: 20px;
+              
+            }
+            .wrap_img_add{
+              // display: flex;
+              // flex-flow: column;
+              margin: auto;
+              align-items: center;
+              text-align: center;
+              justify-content: center;
+              .second_wrap{
+                width: 200px;
+                .add_img{
+                  margin-top: 10px;
+                  padding-bottom: 5px;
+                  width: 30px;
+                  // height: 30px;
+                  // width: 32px;
+                  aspect-ratio: auto 32 / 32;
+                  // height: 32px;
+                  overflow-clip-margin: content-box;
+                  overflow: clip;
+                  filter: invert(100%);
+                  
+                }
+              }
+              
+            }
+            .explain_footer{
+              min-width: 100px;
+              margin: 5px;
+              margin-top: 30px;
+              .ex_write{
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+      
+              }
+            }
+           
+            .add_write{
+              color: white;
+              font-size: 12px;
+            }
+          }
+            
+        }
+       
+        
+      }
+    }
+  }

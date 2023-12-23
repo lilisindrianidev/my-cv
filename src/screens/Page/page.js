@@ -27,14 +27,20 @@ import Js from '../../assets/images/other/js.png'
 import Sass from '../../assets/images/other/sass.png'
 import Css from '../../assets/images/other/css.png'
 import Php from '../../assets/images/other/php.png'
+import Tp from '../../assets/images/other/text.png'
+
 
 import A from '../../assets/images/other/1.png'
 import B from '../../assets/images/other/2.png'
 import C from '../../assets/images/other/3.png'
 import D from '../../assets/images/other/4.png'
 
+import Lang from '../../assets/images/languages3.png'
 
 import { Link } from "react-router-dom";
+
+import image from "../../data/picture1"
+import {Slide2} from "./../../components/slide.js"
 
 class Page extends Component{
   render(){
@@ -44,7 +50,7 @@ class Page extends Component{
           <div className="menu" id="moreinfo2">
             <Burger/>
             <div className="name">
-              <div className="inside_name">L</div>
+              <div className="inside_name"></div>
             </div>
             <div className="write_menu">
               <a href="#home" className="write"> Home</a>
@@ -149,7 +155,7 @@ class Page extends Component{
                 GPA : 3.64 
               </li>
               <li className="list_university">
-                Joined in Art Organization of Universitas Teknologi Digital Indonesia
+              Leader of Theater division in Art Organization of Universitas Teknologi Digital Indonesia
               </li>
               <li className="list_university">
                 Band Vocalist in the ivent of Stikes Guna Bangsa, Gathering music in University Sanata Dharma, Akprind.  
@@ -212,31 +218,31 @@ class Page extends Component{
               </ul>
             </div>
             <div className="other_ability2">
-              <div className="title_write_ability2"> Projects: 
-                <div className="img_abil">
-                  <img src={Surat} className="img_a"/>
-                  <h3 className="other_write_ability2"> Government Correspondent service web app using Naive bayes metode</h3>
-                </div>
-                <div className="img_abil">
-                  <img src={Godot} className="img_a"/>
-                  <h3 className="other_write_ability2"> Duplicat fIrst Page for Godot Application</h3>
-                </div>
-                <div className="img_abil">
-                  <img src={Desty} className="img_a"/>
-                  <h3 className="other_write_ability2"> Duplicat fIrst Page for Desty Application</h3>
-                </div>
+              <div>
                 
-               
+              </div>
+              <div className="title_write_ability2"> Projects: 
+                {/* <div className="wrap_img">
+                  */}
+                <Slide2/>
+                {/* </div> */}
+                
+                
                 
               </div>
             </div>
-            <div className="other_ability">
-              <ul className="title_write_ability"> Languages
-                <li className="other_write_ability"> Java : Native or bilingual proficiency</li>
-                <li className="other_write_ability"> Indonesian Language : Native or bilingual proficiency</li>
-                <li className="other_write_ability"> English: Professional working proficiency</li>
-                
-              </ul>
+            <div className="other_ability4">
+              <div className="title_write_ability4"> Languages </div>
+              <div className="other4">
+                <div className="other_write_ability4_wrap">
+                  <div className="other_write_ability4"> Java : Native or bilingual proficiency</div>
+                  <div className="other_write_ability4"> Indonesian Language : Native or bilingual proficiency</div>
+                  <div className="other_write_ability4"> English: Professional working proficiency</div>
+                </div>
+                <div className="lang_wrap">
+                  <img src={Lang} className="language"/>
+                </div>
+              </div>
             </div>
             <div className="ability"> 
               <h1 className="write_ability">Framework Skills</h1>
@@ -245,7 +251,7 @@ class Page extends Component{
                 <div className="wrap_abl">
                   <img src={Laravel} className="wrap_abl_img"/>
                   <h3 className="btn_abl">Laravel
-                    <h3 className="btn_abl_in">Beginner</h3>
+                    <h3 className="btn_abl_in">Intermediet</h3>
                   </h3>
                 </div>
                 <div className="wrap_abl">
@@ -299,6 +305,12 @@ class Page extends Component{
                 <div className="wrap_abl3">
                   <img src={Ai} className="wrap_abl3_img"/>
                   <h3 className="btn_abl3">Adobe Ilustrator
+                    <h3 className="btn_abl_in3">Intermediet</h3>
+                  </h3>
+                </div>
+                 <div className="wrap_abl3">
+                  <img src={Tp} className="wrap_abl3_img"/>
+                  <h3 className="btn_abl3">TextPad
                     <h3 className="btn_abl_in3">Intermediet</h3>
                   </h3>
                 </div>
