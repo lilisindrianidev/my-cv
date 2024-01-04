@@ -39,26 +39,27 @@ export const Slide2 = ({ hehe }) => {
 
       <div className="wrap">
         <div className="scroll">
-            <BsArrowLeftCircleFill className="arrow arrow-left" onClick={nextSlide}/>
+            <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
           {images.map((item, index) => {
             return <img src={item.image} alt={item.alt} key={index} className={slide===index? "slide" : "slide slide-hidden"}/>
           })}
-            <BsArrowRightCircleFill className="arrow arrow-right" onClick={prevSlide} />
+            <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide} />
+         
           <span className="indicators">
             {images.map((_, idx) => {
               return <button key={idx} onClick={null} className={slide===idx ? "indicator" : "indicator indicator-inactive"}></button>
             })}
           </span>
-
         </div>
-        <p1 className="write">
-        Government Correspondent service web app using Naive bayes metode
-        </p1>
+       
+        <p className="write">
+        Government Correspondent service web app using Naive bayes metode using react Js and Laravel
+        </p>
       </div>
 
       <div className="wrap2">
         <div className="scroll2">
-          <BsArrowLeftCircleFill className="arrow2 arrow-left2" onClick={nextSlide2}/>
+          <BsArrowLeftCircleFill className="arrow2 arrow-left2" onClick={prevSlide2}/>
         
           {images2.map((item, index) => {
           // var images2 =require([item.url])
@@ -66,7 +67,7 @@ export const Slide2 = ({ hehe }) => {
 
           })}
     
-          <BsArrowRightCircleFill className="arrow2 arrow-right2" onClick={prevSlide2} />
+          <BsArrowRightCircleFill className="arrow2 arrow-right2" onClick={nextSlide2} />
           <span className="indicators2">
             {images2.map((_, idx) => {
               return <button key={idx} onClick={null} className={slide2===idx ? "indicator2" : "indicator2 indicator-inactive2"}></button>
@@ -74,13 +75,13 @@ export const Slide2 = ({ hehe }) => {
           </span>
 
         </div>
-        <p1 className="write2">
-          Duplicate first Page for Desty Application
-        </p1>
+        <p className="write2">
+          Duplicate first Page for Desty Application using React Js
+        </p>
       </div>
       <div className="wrap3">
         <div className="scroll3">
-          <BsArrowLeftCircleFill className="arrow3 arrow-left3" onClick={nextSlide3}/>
+          <BsArrowLeftCircleFill className="arrow3 arrow-left3" onClick={prevSlide3}/>
         
           {images3.map((item, index) => {
           // var images2 =require([item.url])
@@ -88,7 +89,7 @@ export const Slide2 = ({ hehe }) => {
 
           })}
     
-          <BsArrowRightCircleFill className="arrow3 arrow-right3" onClick={prevSlide3} />
+          <BsArrowRightCircleFill className="arrow3 arrow-right3" onClick={nextSlide3} />
           <span className="indicators3">
             {images3.map((_, idx) => {
               return <button key={idx} onClick={null} className={slide3===idx ? "indicator3" : "indicator3 indicator-inactive3"}></button>
@@ -96,9 +97,9 @@ export const Slide2 = ({ hehe }) => {
           </span>
            
         </div>
-        <p1 className="write3">
-          Duplicat first Page for Godot Application
-        </p1>
+        <p className="write3">
+          Duplicat first Page for Godot Application using React Js
+        </p>
       </div>
       
     </div>

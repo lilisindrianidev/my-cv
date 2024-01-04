@@ -328,15 +328,15 @@ class Page extends Component{
                 <div className="second_wrap">
                   <img src={Address} className="add_img"/>
                   <h3 className="add_write">
-                    RT1 RW1, Dukuh Brunyah, Desa Taggeran, Kecamatan Paninggaran,
-                    Kabupaten Pekalongan, Jawa Tengah, Indonesia
+                    RT1 RW1, Dukuh Brunyah, Taggeran Village, Paninggaran Subdistrict,
+                    Pekalongan District, Central Java, Indonesia
                   </h3>
                 </div>
                 
                 <div className="second_wrap">
                   <img src={Phone} className="add_img"/>
                   <h3 className="add_write">
-                  082124457564
+                  082 124 457 564
                   </h3>
                 </div>
                 
