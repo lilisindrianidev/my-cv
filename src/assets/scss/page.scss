@@ -168,17 +168,17 @@
             font-size: 20px;
 
           }
-          .media_images{
-            margin: auto;
-            background-image: url(./../images/contact.png);
-            background-position: center;
-            background-size: contain;
-            background-position:top;
-            background: cover;
-            width: 400px;
-            height: 20px;
-            background-repeat: no-repeat;
-          z-index: -1;
+          // .media_images{
+          //   margin: auto;
+          //   background-image: url(./../images/contact.png);
+          //   background-position: center;
+          //   background-size: contain;
+          //   background-position:top;
+          //   background: cover;
+          //   width: 400px;
+          //   height: 20px;
+          //   background-repeat: no-repeat;
+          // z-index: -1;
             .media_img {
               margin: 20px;
               width: 40px;
@@ -197,7 +197,7 @@
                 filter: grayscale(100%);
               }
             }
-          }
+          // }
 
         }
       }
